@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/azurlane_react/static/css/main.5f8d1ee9.css",
-    "main.js": "/azurlane_react/static/js/main.f87f8c21.js",
+    "main.js": "/azurlane_react/static/js/main.39025ee3.js",
     "index.html": "/azurlane_react/index.html",
     "main.5f8d1ee9.css.map": "/azurlane_react/static/css/main.5f8d1ee9.css.map",
-    "main.f87f8c21.js.map": "/azurlane_react/static/js/main.f87f8c21.js.map"
+    "main.39025ee3.js.map": "/azurlane_react/static/js/main.39025ee3.js.map"
   },
   "entrypoints": [
     "static/css/main.5f8d1ee9.css",
-    "static/js/main.f87f8c21.js"
+    "static/js/main.39025ee3.js"
   ]
 }
