@@ -1,27 +1,20 @@
-import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
-import axios from 'axios';
-
-const Home = () => {
-    const [data, setData] = useState(null);
-    const onClick = async () => {
-        try {
-            const response = await axios.get(
-                `https://raw.githubusercontent.com/AzurAPI/azurapi-js-setup/master/ships.json`
-            );
-            setData(response.data);
-        } catch (e) {
-            console.log(e);
-        }
-    };
-    return(
-        <div>
-            <div>
-                <button onClick={onClick}>불러오기</button>
-            </div>
-            {data && <textarea rows={10} value={JSON.stringify(data, null, 2)} />}
-        </div>
-    )
+function BasicExample() {
+  return (
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+  );
 }
 
-export default Home;
+export default BasicExample;

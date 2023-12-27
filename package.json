@@ -2,7 +2,7 @@
   "name": "azurlane",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://leeyongseok13.github.io/azurlane_react/",
+  "homepage": "https://leeyongseok13.github.io/azurlane_react/",
   "dependencies": {
     "@azurapi/azurapi": "^1.1.2",
     "@testing-library/jest-dom": "^5.17.0",
@@ -12,6 +12,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

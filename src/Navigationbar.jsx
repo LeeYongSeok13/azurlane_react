@@ -1,14 +1,13 @@
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {Button, Container, Form, Nav, Navbar, NavDropdown} from 'react-bootstrap/Button';
+
 
 function Navigationbar() {
    
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <header>
+      <Router>
+      <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#">AzurLane</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -55,6 +54,8 @@ function Navigationbar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </Router>
+    </header>
   );
 }
 
